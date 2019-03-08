@@ -1,0 +1,21 @@
+.bold-name {
+    font-weight: bold;
+    color: rgb(220,104,135)
+}
+
+ .location {
+    text-emphasis: bold;
+    text-decoration: underline;
+    margin-bottom: 1em;
+}
+
+.LocationImage {
+    width: 175px;
+    height: 125px;
+    border: 4px solid rgb(252,188,82);
+  }
+
+.locations {
+    margin-top: 2.50em;
+    text-align: center;
+}

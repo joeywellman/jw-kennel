@@ -1,0 +1,105 @@
+{
+  "credentials": [
+    {
+      "id": 1,
+      "email": "test@test.com",
+      "password": "test"
+    }
+  ],
+  "employees": [
+    {
+      "id": 1,
+      "name": "Josy Wellman"
+    },
+    {
+      "id": 2,
+      "name": "Kim Preece"
+    },
+    {
+      "id": 3,
+      "name": "Jordan Cool"
+    },
+    {
+      "id": 4,
+      "name": "Bearda Josef"
+    }
+  ],
+  "animals": [
+    {
+      "id": 1,
+      "name": "Doodles",
+      "breed": "Poodle",
+      "employeeId": 4
+    },
+    {
+      "id": 2,
+      "name": "Jacki",
+      "breed": "Mutt",
+      "employeeId": 3
+    },
+    {
+      "id": 3,
+      "name": "Lydia",
+      "breed": "German Shepherd",
+      "employeeId": 2
+    },
+    {
+      "id": 4,
+      "name": "Henley",
+      "breed": "Rat Terrier",
+      "employeeId": 1
+    },
+    {
+      "id": 5,
+      "name": "Derkins",
+      "breed": "Husky",
+      "employeeId": 1
+    },
+    {
+      "id": 6,
+      "name": "Checkers",
+      "breed": "Dalmation",
+      "employeeId": 2
+    },
+    {
+      "name": "Kitty",
+      "breed": "Cat (Not Dog)",
+      "employeeId": 4,
+      "id": 7
+    }
+  ],
+  "locations": [
+    {
+      "id": 1,
+      "name": "Nashville North",
+      "address": "500 Circle Way"
+    },
+    {
+      "id": 2,
+      "name": "Nashville South",
+      "address": "10101 Binary Court"
+    }
+  ],
+  "owners": [
+    {
+      "id": 1,
+      "name": "Jordan",
+      "phoneNumber": "123-456-7890"
+    },
+    {
+      "id": 2,
+      "name": "Josh",
+      "phoneNumber": "248-434-5508"
+    },
+    {
+      "id": 3,
+      "name": "Kim",
+      "phoneNumber": "866-706-4042"
+    },
+    {
+      "id": 4,
+      "name": "Joey",
+      "phoneNumber": "987-654-3210"
+    }
+  ]
+}
