@@ -103,3 +103,8 @@
 .grayText{
   color: rgb(108,117,125);
 }
+
+#editBtn{
+  margin-top: 0.50em;
+  margin-bottom: 0.50em;
+}

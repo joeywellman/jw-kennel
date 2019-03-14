@@ -35,9 +35,9 @@ export default class EmployeeList extends Component {
               </div>
               <div className="animals-caretaker">
                 {this.props.animals
-                  // this .filter() returns an array of all items where this condition is true
+                  // this .filter() returns an array of all items where this condition is true:
                   .filter(anml => anml.employeeId === employee.id)
-                  //this .map() loops over the new array (made from the above .filter()) of the animals who match the employee ID and re-renders our reusable component (to make the cards)
+                  //this .map() loops over the new array (made from the above .filter()) of the animals who match the employee ID and re-renders reusable component (to make the cards):
                   .map(anml => (
                     <AnimalCard key={anml.id} animal={anml} {...this.props} />
                   ))}

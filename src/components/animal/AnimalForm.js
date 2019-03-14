@@ -62,7 +62,7 @@ export default class AnimalForm extends Component {
             <select className="grayText form-group col-auto" defaultValue="" name="employee" id="employee" onChange={this.handleFieldChange}>
               <option value="" className="form-control text-center" placeholder="Select an Employee">Select an Employee</option>
               {this.props.employees.map(ee => (
-                <option key={ee.id} id={ee.id}>{ee.name}</option>
+                <option className="form-control text-center" key={ee.id} id={ee.id}>{ee.name}</option>
               ))}
             </select>
             </div>

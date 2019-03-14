@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
 import 'bootstrap/dist/css/bootstrap.min.css'
-import './NavBar.css'
 
 export default class NavBar extends Component {
     // When Users click logout button, clear both local and session storage:
@@ -35,8 +34,8 @@ export default class NavBar extends Component {
                         {/* This is a ternary statement!! It checks to see if there's anything in either local or session storage. If so, it renders the "Sign out" button. If not, it renders a "Log in" button */}
                         {sessionStorage.getItem("credentials") === null &&
                             localStorage.getItem("credentials") === null ? (
-                                <Link className="nav-link sign-in-text" to="/login">Sign In</Link>) : (
-                                <Link className="nav-link sign-out-text" to="/" onClick={this.logout}>Sign Out</Link>)
+                                <Link className="nav-link" to="/login">Sign In</Link>) : (
+                                <Link className="nav-link" to="/" onClick={this.logout}>Sign Out</Link>)
                         }
                     </li>
                 </ul>
