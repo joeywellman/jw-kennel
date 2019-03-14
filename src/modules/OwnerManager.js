@@ -6,5 +6,12 @@ export default {
   },
   getAll() {
     return fetch(`${remoteURL}/owners`).then(e => e.json());
+  },
+  deleteEmployee: id => {
+    return fetch(`${remoteURL}/owners/${id}`, {
+      method: "DELETE"
+    })
+      .then(() => fetch(`${remoteURL}/owners`))
+      .then(e => e.json());
   }
 };

@@ -30,3 +30,22 @@
   #credsuccessBtn{
     margin-top: 0.25em;
   }
+
+  #credcreateBtn{
+    margin-top: 2.50em;
+  }
+
+  #credregBtn{
+    margin-top: 1.00em;
+  }
+
+  .overflow{word-wrap: break-word;
+    display:inline-block;
+    *display:inline;/* ie7 and under inline-block hack */
+    *zoom:1.0;/* "  " */
+  }
+
+  #errorMsg{
+    margin-top: 5.00em;
+    color:red;
+  }

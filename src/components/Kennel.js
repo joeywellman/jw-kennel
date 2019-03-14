@@ -4,7 +4,11 @@ import ApplicationViews from "./ApplicationViews";
 import "./Kennel.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
-class Kennel extends Component {
+export default class Kennel extends Component {
+
+    // Check to see if "credentials" are in Local Storage.
+  isAuthenticated = () => sessionStorage.getItem("credentials") !== null;
+
   render() {
     return (
       <React.Fragment>
@@ -14,7 +18,5 @@ class Kennel extends Component {
     );
   }
 }
-
-export default Kennel;
 
 // export default Kennel

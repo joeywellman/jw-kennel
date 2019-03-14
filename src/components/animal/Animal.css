@@ -84,7 +84,7 @@
 }
 
 #inputwindow{
-  position:absolute;
+  margin-top: 5.0em;
   padding: 30px;
   border: 5px dotted rgb(40,167,69);
 }

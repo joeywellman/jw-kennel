@@ -1,0 +1,13 @@
+.owner {
+    text-emphasis: bold;
+    text-decoration: underline;
+    margin-top: 1.5em;
+    text-align: center;
+    margin-bottom: 1.0em;
+  }
+
+  .bold-center-name {
+    font-weight: bold;
+    color: rgb(220,104,135);
+    text-align:center;
+  }

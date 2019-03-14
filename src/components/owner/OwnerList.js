@@ -1,18 +1,23 @@
 import React, { Component } from 'react';
+import './Owner.css';
 
 export default class OwnerList extends Component {
     render() {
         return (
-            <section className="owners">
-            <h1>Owners</h1>
-            {this.props.owners.map(owner =>
-                <div key={owner.id}>
-                    {owner.name}
+            <React.Fragment>
+                <h3 className="owner">Owners</h3>
+                <div className="col-2 mx-auto">
+                    <ul className="">
+                        {this.props.owners.map(owner =>
+                            <li key={owner.id} className="grayText">
+                                <h4 className="bold-center-name">{owner.name}</h4>
+                            </li>
+                        )
+                        }
+                    </ul>
                 </div>
-            )
-            }
-            </section>
-         )
+            </React.Fragment>
+        )
     }
 }
 

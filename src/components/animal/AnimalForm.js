@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import DogIcon from './DogIcon.png';
 import './Animal.css';
 
 export default class AnimalForm extends Component {
@@ -42,8 +43,11 @@ export default class AnimalForm extends Component {
   render() {
     return (
       <React.Fragment>
+        <h3 className="animal">Admit an Animal</h3>
         <form id="animalformwindow" className="animalForm">
         <div id="inputwindow">
+        <center><img src={DogIcon} className="DogIcon" alt="Dog Icon" /></center>
+        <br></br>
           <div className="form-group col-auto">
             <label className="bold-name" htmlFor="animalName">Animal Name: </label>
             <input type="text" required className="grayText form-control text-center" onChange={this.handleFieldChange} id="animalName" placeholder="Name of Animal"/>
